@@ -1,0 +1,102 @@
+.navbar {
+    height: 5rem;
+    width: 100vw;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+}
+
+.logo {
+    display: flex;
+}
+
+.nishant {
+    height: 3rem;
+    border: 2px solid aqua;
+}
+
+.logo h1 {
+    font-size: 2.5rem;
+}
+
+.logo h1 span {
+    color: #00ffff;
+}
+
+.list {
+    margin-left: 3rem;
+    font-size: 1.1rem;
+    /* font-weight: 700; */
+}
+
+.list:hover {
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid aqua;
+    color: aqua;
+
+}
+
+.btn {
+    height: 2rem;
+    width: 10vw;
+    border: none;
+    background-color: #fff;
+    color: black;
+    font-weight: 700;
+    border-radius: 4rem;
+}
+
+.btn:hover {
+    background-color: aqua;
+}
+
+@media (min-width: 786px) and (max-width: 1024px) and (orientation: landscape) {
+    .navbar {
+        height: 5rem;
+        width: 100vw;
+        background-color: #000;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        position: fixed;
+    }
+    
+    .logo h1 {
+        font-size: 2rem;
+    }
+    
+    .logo h1 span {
+        color: aqua;
+    }
+    
+    .list {
+        margin-left: 2rem;
+        font-size: 1rem;
+        /* font-weight: 700; */
+    }
+    
+    .list:hover {
+        padding-bottom: 0.5rem;
+        border-bottom: 2px solid aqua;
+        color: aqua;
+    
+    }
+    
+    .btn {
+        height: 2rem;
+        width: 12vw;
+        border: none;
+        background-color: #fff;
+        color: black;
+        font-weight: 700;
+        border-radius: 4rem;
+    }
+    
+    .btn:hover {
+        background-color: aqua;
+    }
+}
