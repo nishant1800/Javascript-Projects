@@ -1,4 +1,4 @@
-
+// to app javascript code
 
 document.addEventListener("DOMContentLoaded", function() {
     let inp = document.querySelector("input");
