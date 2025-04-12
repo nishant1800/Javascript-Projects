@@ -1,0 +1,143 @@
+
+
+/* boilerplate code */
+@font-face {
+    font-family: Gilroy;
+    src: url(Gilroy-Medium.ttf) format(truetype);
+}
+
+/* navbar style */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    font-family: "Gilroy";
+}
+
+.nav {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 50px;
+}
+
+.nav-h1 span {
+    color: palegreen;
+}
+
+.nav-options a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin-left: 40px;
+    font-weight: 600;
+}
+
+.nav-options a:hover {
+    color: palegreen;
+    border-bottom: 3px solid black;
+}
+
+.nav-options .home {
+    color: palegreen;
+}
+
+.nav-options .home:hover {
+    color: black;
+    font-weight: 600;
+    border-bottom: 3px solid palegreen;
+}
+
+.nav-btn Button {
+    height: 40px;
+    width: 150px;
+    border-radius: 20px;
+    background-color: black;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+    color: palegreen;
+    border: none;
+}
+
+.nav-btn Button:hover {
+    background-color: palegreen;
+    color: black;
+}
+
+/* herosection style */
+
+.herosection {
+    height: 500px;
+    width: 100%;
+    display: flex;
+}
+
+.herosection-left {
+    height: 500px;
+    width: 50%;
+}
+
+.herosection-left-1 {
+    padding-left: 90px;
+    padding-top: 50px;
+}
+
+.herosection-left-para {
+    font-size: 24px;
+    padding-bottom: 5px;
+}
+
+.herosection-left-h1 {
+    font-size: 25px;
+    color: palegreen;
+}
+
+.herosection-left-btn {
+    padding-top: 10px;
+}
+
+.herosection-left-btn button {
+    height: 50px;
+    width: 200px;
+    border-radius: 25px;
+    border: none;
+    color: palegreen;
+    background-color: black;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.herosection-left-btn a {
+    text-decoration: none;
+    color: palegreen;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.herosection-right {
+    height: 500px;
+    width: 50%;
+    background-color: green;
+}
