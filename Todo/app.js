@@ -17,11 +17,11 @@ document.addEventListener("DOMContentLoaded", function() {
             delButton.className = "del-Button";
 
             delButton.addEventListener("click", function() {
-                li.remove(newList);
+                li.removeChild(newList);
             })
             newList.appendChild(delButton);
             li.appendChild(newList);
-
+            inp.value = "";
         }
-    })
+    });
 })

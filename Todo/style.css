@@ -14,11 +14,10 @@ body, html {
 }
 
 .todoBox {
-    height: 500px;
     width: 500px;
     background-color: #fff;
     border-radius: 20px;
-    border: 2px solid yellow;
+    border: 3px solid blue;
 }
 
 .todo {
@@ -28,7 +27,6 @@ body, html {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* border: 2px solid black; */
     margin-top: 10px;
 }
 
@@ -56,10 +54,22 @@ body, html {
     color: white;
 }
 
-.list li {
-    margin-left: 80px;
+.list {
+    margin-top: 5px;
+    margin-bottom: 20px;
 }
 
-.del-Btn {
+.list li {
+    margin-top: 5px;
+    margin-left: 80px;
+    list-style: none;
+}
+
+.del-Button {
+    margin-left: 200px;
     color: red;
+}
+
+.del-Button:hover {
+    color: darkred;
 }
