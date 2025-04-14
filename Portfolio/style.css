@@ -142,13 +142,54 @@ body, html {
 .about-left {
     height: 500px;
     width: 40%;
-    background-color: gray;
+    /* background-color: green; */
+}
+
+.about-left-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.about-left-box {
+    height: 400px;
+    width: 300px;
+    border-radius: 20px;
+    /* background-color: palegreen; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid black; */
 }
 
 .about-right {
     height: 500px;
     width: 60%;
-    background-color: aqua;
+}
+
+.about-right-h1 {
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+.about-right-para {
+    font-size: 17px;
+}
+
+.about-right-skillsANDExperience {
+    display: flex;
+    gap: 40px;
+    padding-top: 20px;
+}
+
+.about-right-skills {
+    color: black;
+}
+
+.about-right-skills:hover {
+    color: palegreen;
+    border-bottom: 3px solid black;
 }
 
 
