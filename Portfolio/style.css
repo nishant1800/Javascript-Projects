@@ -75,7 +75,6 @@ body, html {
 }
 
 /* herosection style */
-
 .herosection {
     height: 500px;
     width: 100%;
@@ -123,21 +122,45 @@ body, html {
     color: palegreen;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 .herosection-right {
     height: 500px;
     width: 50%;
-    background-color: green;
 }
+
+.herosection-right-myimage {
+    padding-top: 40px;
+    padding-left: 120px;
+}
+
+/* about sction */
+.about {
+    height: 500px;
+    width: 100%;
+    display: flex;
+}
+
+.about-left {
+    height: 500px;
+    width: 40%;
+    background-color: gray;
+}
+
+.about-right {
+    height: 500px;
+    width: 60%;
+    background-color: aqua;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
