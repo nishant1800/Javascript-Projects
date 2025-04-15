@@ -142,7 +142,6 @@ body, html {
 .about-left {
     height: 500px;
     width: 40%;
-    /* background-color: green; */
 }
 
 .about-left-1 {
@@ -156,11 +155,9 @@ body, html {
     height: 400px;
     width: 300px;
     border-radius: 20px;
-    /* background-color: palegreen; */
     display: flex;
     align-items: center;
     justify-content: center;
-    /* border: 2px solid black; */
 }
 
 .about-right {
@@ -179,7 +176,7 @@ body, html {
 
 .about-right-skillsANDExperience {
     display: flex;
-    gap: 40px;
+    gap: 150px;
     padding-top: 20px;
 }
 
@@ -190,6 +187,77 @@ body, html {
 .about-right-skills:hover {
     color: palegreen;
     border-bottom: 3px solid black;
+}
+
+.about-right-education:hover {
+    color: palegreen;
+    border-bottom: 3px solid black;
+}
+
+.about-right-list {
+    padding-top: 20px;
+}
+
+.about-right-list ul li {
+    padding-top: 5px;
+}
+
+.about-right-list p {
+    padding-top: 5px;
+}
+
+.about-right-list {
+    display: none;
+}
+
+.about-right-list-2 {
+    padding-top: 20px;
+}
+
+.about-left-2 ul li {
+    padding-top: 20px;
+}
+
+.about-right-list-2 p {
+    padding-top: 5px;
+}
+
+
+/* services */
+.services {
+    height: 500px;
+    width: 100%;
+    background-color: blue;
+}
+
+.services-1 {
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.services-boxes {
+    height: 400px;
+    width: 100%;
+    background-color: red;
+    display: flex;
+}
+
+.services-box-1 {
+    height: 250px;
+    width: 250px;
+    border-color: black;
+}
+
+.services-box-2 {
+    height: 250px;
+    width: 250px;
+    border-color: black;
+}
+
+.services-box-3 {
+    height: 250px;
+    width: 250px;
+    border-color: black;
 }
 
 
