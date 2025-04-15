@@ -187,11 +187,13 @@ body, html {
 .about-right-skills:hover {
     color: palegreen;
     border-bottom: 3px solid black;
+    cursor: pointer;
 }
 
 .about-right-education:hover {
     color: palegreen;
     border-bottom: 3px solid black;
+    cursor: pointer;
 }
 
 .about-right-list {
@@ -225,9 +227,8 @@ body, html {
 
 /* services */
 .services {
-    height: 500px;
+    height: 400px;
     width: 100%;
-    background-color: blue;
 }
 
 .services-1 {
@@ -236,30 +237,107 @@ body, html {
 }
 
 .services-boxes {
-    height: 400px;
+    height: 300px;
     width: 100%;
-    background-color: red;
     display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: palegreen;
 }
 
 .services-box-1 {
     height: 250px;
     width: 250px;
-    border-color: black;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.services-box-1 i {
+    font-size: 40px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.services-box-1 h2 {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.services-box-1 p {
+    font-size: 13px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.services-box-1 .learn {
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
 }
 
 .services-box-2 {
     height: 250px;
     width: 250px;
-    border-color: black;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.services-box-2 i {
+    font-size: 40px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.services-box-2 h2 {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.services-box-2 p {
+    font-size: 13px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.services-box-2 .learn {
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
 }
 
 .services-box-3 {
     height: 250px;
     width: 250px;
-    border-color: black;
+    background-color: black;
+    border-radius: 10px;
 }
 
+.services-box-3 i {
+    font-size: 40px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.services-box-3 h2 {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.services-box-3 p {
+    font-size: 13px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.services-box-3 .learn {
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.learn:hover {
+    cursor: pointer;
+}
 
 
 

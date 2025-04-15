@@ -34,8 +34,8 @@ herosectionRightMyImage.addEventListener("click", function() {
     }
 })
 
-
 // about section
+
 let aboutRightList = document.querySelector(".about-right-skills");
 let aboutRightSkills = document.querySelector(".about-right-list");
 let aboutRightEducation = document.querySelector(".about-right-education");
@@ -57,3 +57,63 @@ aboutRightEducation.addEventListener("click", function() {
 })
 
 // services section
+
+let servicesBox1 = document.querySelector(".services-box-1");
+let servicesBox2 = document.querySelector(".services-box-2");
+let servicesBox3 = document.querySelector(".services-box-3");
+
+let learn = document.querySelectorAll(".learn");
+
+servicesBox1.addEventListener("mouseover", function() {
+    servicesBox1.style.backgroundColor="black";
+    servicesBox1.style.color="palegreen";
+})
+
+servicesBox1.addEventListener("mouseout", function() {
+    servicesBox1.style.backgroundColor="palegreen";
+    servicesBox1.style.color="black";
+})
+
+servicesBox2.addEventListener("mouseover", function() {
+    servicesBox2.style.backgroundColor="black";
+    servicesBox2.style.color="palegreen";
+})
+
+servicesBox2.addEventListener("mouseout", function() {
+    servicesBox2.style.backgroundColor="palegreen";
+    servicesBox2.style.color="black";
+})
+
+servicesBox3.addEventListener("mouseover", function() {
+    servicesBox3.style.backgroundColor="black";
+    servicesBox3.style.color="palegreen";
+})
+
+servicesBox3.addEventListener("mouseout", function() {
+    servicesBox3.style.backgroundColor="palegreen";
+    servicesBox3.style.color="black";
+})
+
+learn.forEach(function(learn) {
+    learn.addEventListener("click", function() {
+        alert("all details comming soon...");
+    })
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
