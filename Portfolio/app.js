@@ -35,7 +35,7 @@ herosectionRightMyImage.addEventListener("click", function() {
 })
 
 // about section
-
+// Incomplete
 let aboutRightList = document.querySelector(".about-right-skills");
 let aboutRightSkills = document.querySelector(".about-right-list");
 let aboutRightEducation = document.querySelector(".about-right-education");
@@ -101,6 +101,12 @@ learn.forEach(function(learn) {
 })
 
 // project sections
+let projectsH1 = document.querySelector(".projects-h1");
+let projectsBoxes = document.querySelector(".projects-boxes");
+
+projectsH1.addEventListener("click", function() {
+    projectsBoxes.style.display="flex";
+})
 
 
 

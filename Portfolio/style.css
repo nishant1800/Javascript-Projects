@@ -7,7 +7,6 @@
 }
 
 /* navbar style */
-
 * {
     margin: 0;
     padding: 0;
@@ -359,13 +358,15 @@ body, html {
 
 /* projects */
 .projects {
-    height: 500px;
+    height: 600px;
     width: 100%;
 }
 
 .projects-h1 {
-    font-size: 20px;
+    font-size: 130px;
     margin-left: 30px;
+    display: flex;
+    justify-content: center;
 }
 
 .projects-boxes {
@@ -426,6 +427,33 @@ body, html {
 .projects-boxes {
     display: none;
 }
+
+/* contacts */
+.contact {
+    height: 600px;
+    width: 100%;
+    background-color: red;
+    margin-top: 200px;
+    display: flex;
+}
+
+.contact-left {
+    height: 600px;
+    width: 40%;
+}
+
+
+
+
+
+.contact-right {
+    height: 600px;
+    width: 60%;
+    background-color: rgb(30, 0, 255);
+}
+
+
+
 
 
 
