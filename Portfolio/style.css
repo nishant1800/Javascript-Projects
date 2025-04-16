@@ -250,6 +250,12 @@ body, html {
     width: 250px;
     background-color: black;
     border-radius: 10px;
+    scale: 0.92;
+    transition: scale 0.8s 1s ease-in;
+}
+
+.services-box-1:hover {
+    scale: 1;
 }
 
 .services-box-1 i {
@@ -280,6 +286,12 @@ body, html {
     width: 250px;
     background-color: black;
     border-radius: 10px;
+    scale: 0.92;
+    transition: scale 0.8s 1s ease-in;
+}
+
+.services-box-2:hover {
+    scale: 1;
 }
 
 .services-box-2 i {
@@ -310,6 +322,12 @@ body, html {
     width: 250px;
     background-color: black;
     border-radius: 10px;
+    scale: 0.92;
+    transition: scale 0.8s 1s ease-in;
+}
+
+.services-box-3:hover {
+    scale: 1;
 }
 
 .services-box-3 i {
@@ -337,6 +355,76 @@ body, html {
 
 .learn:hover {
     cursor: pointer;
+}
+
+/* projects */
+.projects {
+    height: 500px;
+    width: 100%;
+}
+
+.projects-h1 {
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.projects-boxes {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 40px;
+}
+
+.projects-box-1 {
+    height: 350px;
+    width: 250px;
+    background-color: palegreen;
+    margin-top: 20px;
+    background-image: url("portfolio.png");
+    background-size: cover;
+    border: 30px solid black;
+    transition: all 0.5s 0.5s ease-in;
+}
+
+.projects-box-1:hover {
+    border: 30px solid palegreen;
+    scale: 1.1;
+}
+
+.projects-box-2 {
+    height: 350px;
+    width: 250px;
+    background-color: palegreen;
+    background-image: url("todo.png");
+    background-size: cover;
+    border: 30px solid black;
+    scale: 1.1;
+    transition: border 0.5s 0.5s ease-in;
+}
+
+.projects-box-2:hover {
+    border: 30px solid palegreen;
+}
+
+.projects-box-3 {
+    height: 350px;
+    width: 250px;
+    background-color: palegreen;
+    background-image: url("ecommerce.png");
+    background-size: cover;
+    border: 30px solid black;
+    transition: all 0.5s 0.5s ease-in;
+}
+
+.projects-box-3:hover {
+    border: 30px solid palegreen;
+    scale: 1.1;
+}
+
+.projects-boxes {
+    display: none;
 }
 
 
