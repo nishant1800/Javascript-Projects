@@ -432,7 +432,6 @@ body, html {
 .contact {
     height: 600px;
     width: 100%;
-    background-color: red;
     margin-top: 200px;
     display: flex;
 }
@@ -442,15 +441,93 @@ body, html {
     width: 40%;
 }
 
+.contact-left-h1 {
+    font-size: 30px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
 
+.contact-left-telegram {
+    display: flex;
+}
 
+.contact-left-telegram i {
+    color: palegreen;
+    font-size: 30px;
+    margin-left: 55px;
+    margin-top: 20px;
+}
 
+.contact-left-telegram span {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 22px;
+    margin-left: 15px;
+}
+
+.contact-left-phone {
+    display: flex;
+}
+
+.contact-left-phone i {
+    color: palegreen;
+    font-size: 28px;
+    margin-left: 55px;
+    margin-top: 20px;
+}
+
+.contact-left-phone span {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 22px;
+    margin-left: 15px;
+}
+
+.contact-left-socialmedia {
+    font-size: 30px;
+    margin-left: 45px;
+    margin-top: 15px;
+}
+
+.contact-left-socialmedia i {
+    margin-left: 10px;
+    /* color: palegreen; */
+}
+
+.contact-btn-1 button {
+    height: 40px;
+    width: 200px;
+    color: palegreen;
+    background-color: black;
+    border-radius: 20px;
+    margin-left: 45px;
+    margin-top: 15px;
+    border: none;
+    font-size: 17px;
+    font-weight: 550;
+}
 
 .contact-right {
     height: 600px;
     width: 60%;
-    background-color: rgb(30, 0, 255);
+    background-color: yellow;
 }
+
+.input {
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    margin-left: 40px;
+}
+
+.input input {
+    height: 40px;
+    width: 400px;
+    margin-bottom: 10px;
+    /* margin-top: 60px;
+    margin-left: 40px; */
+}
+
 
 
 
