@@ -5,7 +5,7 @@ let body = document.querySelector("body");
 let navOptions = document.querySelector(".nav-options");
 let navBtn = document.querySelector(".nav-btn");
 
-navH1.addEventListener("mouseover", function() {
+navH1.addEventListener("click", function() {
     body.style.backgroundColor = "black";
      navH1.style.display = "none";
      navOptions.style.display = "none";
@@ -57,7 +57,6 @@ aboutRightEducation.addEventListener("click", function() {
 })
 
 // services section
-
 let servicesBox1 = document.querySelector(".services-box-1");
 let servicesBox2 = document.querySelector(".services-box-2");
 let servicesBox3 = document.querySelector(".services-box-3");
@@ -106,6 +105,15 @@ let projectsBoxes = document.querySelector(".projects-boxes");
 
 projectsH1.addEventListener("click", function() {
     projectsBoxes.style.display="flex";
+})
+
+document.querySelectorAll('a[href="#"]').forEach(anchor => {
+    anchor.addEventListener("click", function(e) {
+        e.preventDefault();
+        document.querySelectorAll(this.getAttribute('href')).scrollIntoView({
+            behaviour: smooth
+        })
+    })
 })
 
 
