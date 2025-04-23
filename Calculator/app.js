@@ -1,28 +1,30 @@
 
-let input = document.getElementById("inputBox");
-let buttons = document.querySelectorAll("button");
+let inp = document.getElementById("inputBox");
+let btn = document.querySelectorAll("button");
 
-let string = "";
-let arr = Array.from(buttons);
+let str = "";
+let arr = Array.from(btn);
+
 arr.forEach(button => {
     button.addEventListener("click", (e) => {
-        if(e.target.innerHTML == '=') {
-            string = eval(string);
-            input.value = string;
+        if(e.target.innerHTML == "=") {
+            str = eval(str);
+            inp.value = str;
         }
 
-        else if(e.target.innerHTML == 'AC') {
-            string = "";
-            input.value = string;
+        else if(e.target.innerHTML ==  "AC") {
+            str = "";
+            inp.value = str;
         }
 
-        else if() {
-            
+        else if(e.target.innerHTML == "DEL") {
+            str = str.substring(0, str.length-1);
+            inp.value = str;
         }
-
+        
         else {
-            string += e.target.innerHTML;
-            input.value = string;
-        } 
+            str += e.target.innerHTML;
+            inp.value = str;
+        }
     })
 })
