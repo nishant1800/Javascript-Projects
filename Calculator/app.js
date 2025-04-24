@@ -1,12 +1,12 @@
 
 let inp = document.getElementById("inputBox");
-let btn = document.querySelectorAll("button");
+let btns = document.querySelectorAll("button");
 
 let str = "";
-let arr = Array.from(btn);
+let arr = Array.from(btns);
 
-arr.forEach(button => {
-    button.addEventListener("click", (e) => {
+arr.forEach(btn => {
+    btn.addEventListener("click", (e) => {
         if(e.target.innerHTML == "=") {
             str = eval(str);
             inp.value = str;
@@ -27,4 +27,4 @@ arr.forEach(button => {
             inp.value = str;
         }
     })
-})
+});
