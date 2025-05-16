@@ -17,4 +17,5 @@ nav {
 nav ul {
     display: flex;
     list-style-type: none;
+    height: 89px;
 }
