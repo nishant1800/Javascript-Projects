@@ -20,3 +20,7 @@ nav ul {
     height: 89px;
     background-color: black;
 }
+
+.brand img {
+    width: 12px;
+}
