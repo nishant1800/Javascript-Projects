@@ -39,3 +39,8 @@ nav ul li {
 container {
     min-height: 75vh;
 }
+
+#myProgressBar {
+    width: 80vh;
+    text-align: center;
+}
