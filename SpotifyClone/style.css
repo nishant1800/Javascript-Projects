@@ -40,6 +40,10 @@ container {
     min-height: 75vh;
 }
 
+.bottom {
+    position: sticky;
+}
+
 #myProgressBar {
     width: 80vh;
     text-align: center;
